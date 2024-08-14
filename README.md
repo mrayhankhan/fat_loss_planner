@@ -11,16 +11,13 @@ This Streamlit application helps users with BMI and BMR calculations, calorie in
 
 ## Setup
 
-1. Clone the repository:
-  ```bash
-git clone https://github.com/yourusername/fat_loss_planner.git
+1. Clone the repository:  `git clone https://github.com/yourusername/fat_loss_planner.git`
    
-<sup>📋 Copy</sup>
-3. Navigate to the project directory:   cd fat_loss_planner
+2. Navigate to the project directory:   `cd fat_loss_planner`
 
-4. Install the required dependencies:   `pip install -r requirements.txt`
+3. Install the required dependencies:   `pip install -r requirements.txt`
 
-5. Run the application:   `streamlit run app.py`
+4. Run the application:   `streamlit run app.py`
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
