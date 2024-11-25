@@ -7,8 +7,11 @@ import streamlit.components.v1 as components  # Import the components module
 from utils import calculate_bmi, calculate_bmr, calculate_daily_calories, estimate_body_composition
 
 # Include custom CSS
-with open("static/style.css") as f:
-    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+try:
+    with open("static/style.css") as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+except FileNotFoundError:
+    st.warning("Custom CSS file not found. Using default styles.")
 
 # Include custom JavaScript
 custom_js = """
